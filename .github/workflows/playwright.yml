@@ -26,6 +26,7 @@ jobs:
       with:
           script: |
             const fs = require('fs');
+            const name = '${{ github.workflow   }}';
             const report = await fs.promises.readFile('report.md', 'utf8');
             const url = '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}';
             const success = '${{ job.status }}' === 'success';
