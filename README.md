@@ -1,2 +1,2 @@
-﻿# Playing_With_Playwright
+﻿# Playing with Playwright
  Exploring and playing with Playwright features and functionalities
